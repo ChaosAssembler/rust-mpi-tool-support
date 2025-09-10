@@ -11,7 +11,7 @@ build = "build.rs"
 mpi-sys = { path = "../mpi-sys", optional = true }
 
 [build-dependencies]
-bindgen = "0.57"
+bindgen = "0.72"
 hyper = { version = "0.13", optional = true }
 hyper-rustls = { version = "0.21", optional = true }
 tokio = { version = "0.2", features = ["full"] }
