@@ -14,7 +14,7 @@ mpi-sys = { path = "../mpi-sys", optional = true }
 bindgen = "0.57"
 hyper = { version = "0.13", optional = true }
 hyper-rustls = { version = "0.21", optional = true }
-tokio = { version = "0.2", features = ["full"] }
+tokio = { version = "1.18.5", features = ["full"] }
 cc = { version = "1.0", optional = true }
 
 [features]
